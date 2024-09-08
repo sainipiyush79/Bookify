@@ -1,0 +1,50 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Flask instance folder
+instance/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS Finder
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Pytest cache
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
