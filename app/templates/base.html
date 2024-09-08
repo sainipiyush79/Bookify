@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookify</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/forms.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/buttons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/responsive.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Bookify</h1>
+    </header>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    <footer>
+        <p>&copy; 2024 Bookify</p>
+    </footer>
+</body>
+</html>
